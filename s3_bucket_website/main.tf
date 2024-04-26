@@ -5,7 +5,7 @@ provider "aws" {
 
 #Block to Create S3 Bucket
 resource "aws_s3_bucket" "my_s3_bucket" {
-  bucket = "louis-first-bucket"
+  bucket = var.bucket_name
   tags = {
     Name        = "My bucket"
     Environment = "Dev"
