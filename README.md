@@ -1,10 +1,10 @@
 # AWS Resume Challenge with Terraform
 
-This project is part of the AWS Resume Challenge, where I showcase my skills in cloud computing and infrastructure management using Amazon Web Services (AWS) and Terraform.
+Hey!!, Welcome to the AWS Resume Challenge with IaaC, where I showcase my skills in cloud computing and infrastructure management using Amazon Web Services (AWS) and Terraform.
 
 ## Overview
 
-The AWS Resume Challenge is an initiative aimed at creating a resume website hosted on AWS to demonstrate proficiency in cloud computing technologies. In this project, I have used Terraform to provision and manage the infrastructure required to deploy my resume website on AWS.
+The AWS Resume Challenge is an initiative aimed at creating a resume website hosted on AWS to demonstrate proficiency in cloud computing technologies. In this project, I have used Terraform to provision and manage the infrastructure required to deploy my resume website on AWS. 
 
 ## Features
 
@@ -27,3 +27,16 @@ Before getting started, make sure you have the following installed:
 ```bash
 git clone https://github.com/your-username/aws-resume-challenge.git
 cd aws-resume-challenge
+```
+
+2. Change directory into a folder and initialize terraform
+
+```bash
+terraform init
+```
+
+3. Review and apply the Terraform configuration
+```bash
+terraform plan
+terraform apply
+```
