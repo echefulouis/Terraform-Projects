@@ -78,8 +78,5 @@ resource "aws_s3_bucket_policy" "host_bucket_policy" {
   })
 }
 
-#Output the Bucket URL
-output "website_url" {
-  value = "${aws_s3_bucket.my_s3_bucket.bucket}.${aws_s3_bucket.my_s3_bucket.website_domain}"
-}
+
 
