@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "my_s3_bucket" {
-  bucket = "louis-first-bucket"
+  bucket = var.bucket_name
   
   tags = {
     Name        = "My bucket"
