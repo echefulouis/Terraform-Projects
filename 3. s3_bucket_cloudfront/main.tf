@@ -12,6 +12,7 @@ resource "aws_s3_bucket" "my_s3_bucket" {
   }
 }
 
+#upload files into the s3 bucket
 resource "aws_s3_object" "provision_source_files" {
   bucket = aws_s3_bucket.my_s3_bucket.id
 
@@ -35,10 +36,6 @@ resource "aws_s3_bucket_acl" "private_acl" {
   acl    = "private"
 }
 
-#come back later
-locals {
-  s3_origin_id = "myS3Origin"
-}
 
 #come back to understand why
 resource "aws_cloudfront_origin_access_identity" "origin_access_identity" {
