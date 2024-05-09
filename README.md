@@ -15,7 +15,7 @@ The AWS Resume Challenge is an initiative aimed at creating a resume website hos
 ## Prerequisites
 Before getting started, make sure you have the following installed:
 
-- Terraform (version X.X.X)
+- Terraform
 - AWS Account 
 - AWS CLI configure with a User with appropriate permissions
 
@@ -25,7 +25,7 @@ Before getting started, make sure you have the following installed:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/aws-resume-challenge.git
+git clone https://github.com/echefulouis/Terraform-Projects.git
 cd aws-resume-challenge
 ```
 
