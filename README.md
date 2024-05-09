@@ -26,7 +26,7 @@ Before getting started, make sure you have the following installed:
 
 ```bash
 git clone https://github.com/echefulouis/Terraform-Projects.git
-cd aws-resume-challenge
+cd Terraform-Projects
 ```
 
 2. Change directory into a folder and initialize terraform
