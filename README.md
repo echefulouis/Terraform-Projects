@@ -35,8 +35,17 @@ cd Terraform-Projects
 terraform init
 ```
 
-3. Review and apply the Terraform configuration
+3. Rename the S3 bucket name in `varibles.tf` with a unique name
+
+
+4. Review and apply the Terraform configuration
 ```bash
 terraform plan
 terraform apply
 ```
+
+5. Tear down the infrastructure created by Terraform, use the following command:
+
+```bash
+terraform destroy
+````

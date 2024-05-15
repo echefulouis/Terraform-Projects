@@ -37,7 +37,6 @@ resource "aws_s3_bucket_acl" "private_acl" {
 }
 
 
-#come back to understand why
 resource "aws_cloudfront_origin_access_identity" "origin_access_identity" {
   comment = "OAI for my s3 bucket"
 }
